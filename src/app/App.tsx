@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AppRouter from '../router/index';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <div>123</div>
+      <AppRouter />
     </div>
   );
 }
