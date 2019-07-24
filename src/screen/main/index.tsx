@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Actions from '../../store/actions/index';
+import { TEST1 } from '../../test/test';
 
 interface MainProps {
     isShow: boolean
@@ -9,7 +10,7 @@ interface MainProps {
 const Main: React.SFC<MainProps> = (props) => {
 
     function divClick() {
-        console.log(props);
+        console.log(TEST1);
         Actions.test.letUsTest();
     }
 

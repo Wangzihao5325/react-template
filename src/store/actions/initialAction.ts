@@ -1,5 +1,5 @@
 import store from '../index';
-import { INITIAL_DONE } from '../types';
+import { INITIAL_DONE } from '../types/index';
 
 let initialAction = {
     done: function () {

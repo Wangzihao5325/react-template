@@ -1,5 +1,5 @@
 import store from '../index';
-import { TEST } from '../types';
+import { TEST } from '../types/index';
 
 let testAction = {
     letUsTest: function () {

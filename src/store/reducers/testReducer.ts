@@ -1,4 +1,4 @@
-import { TEST } from '../types';
+import { TEST } from '../types/index';
 
 interface stateValue {
     isShow: boolean;
