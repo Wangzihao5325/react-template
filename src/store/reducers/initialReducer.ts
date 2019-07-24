@@ -1,4 +1,4 @@
-import { INITIAL_DONE } from '../types';
+import { INITIAL_DONE } from '../types'
 
 interface initialValue {
     isDone: boolean

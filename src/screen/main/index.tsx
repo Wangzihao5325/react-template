@@ -2,9 +2,14 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Actions from '../../store/actions/index';
 
-const Main = (props: any) => {
+interface MainProps {
+    isShow: boolean
+}
+
+const Main: React.SFC<MainProps> = (props) => {
 
     function divClick() {
+        console.log(props);
         Actions.test.letUsTest();
     }
 
