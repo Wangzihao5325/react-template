@@ -1,5 +1,9 @@
-declare let TEST: 1;
-declare let INITIAL_DONE: 2;
+declare const TEST;
+type TEST = typeof TEST;
+
+declare const INITIAL_DONE;
+type INITIAL_DONE = typeof INITIAL_DONE;
+
 
 export {
     TEST,
