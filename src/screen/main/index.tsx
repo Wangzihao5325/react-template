@@ -1,13 +1,8 @@
 import React from 'react';
-import { useEffect } from 'react';
 import { connect } from 'react-redux';
 import Actions from '../../store/actions/index';
 
 const Main = (props: any) => {
-
-    useEffect(() => {
-        console.log(props);
-    }, []);
 
     function divClick() {
         Actions.test.letUsTest();
